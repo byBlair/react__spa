@@ -1,0 +1,43 @@
+.pic{
+  width: calc(25% - 1em);
+  margin: 0 0.5em 1em;
+  padding: 25px;
+  box-sizing: border-box;
+  font-family: 'Arita-dotum-Medium';
+}
+.pic>img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.pic dt{
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.pic dt>a>span{
+  color: rgb(253, 117, 13);
+  margin-right: 10px;
+}
+.pic dt>a{
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.pic dd{
+  text-align:left;
+  font-size: 16px;
+  color: #666;
+  line-height: 25px;
+}
+.pic dd:nth-child(3){
+  text-align:left;
+  font-size: 13px;
+  color: #3a3a3a;
+  line-height: 25px;
+}
+.pic dd>a{
+  color: #666;
+  line-height: 20px;
+  text-decoration: none;
+}

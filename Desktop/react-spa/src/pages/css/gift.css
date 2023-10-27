@@ -1,0 +1,97 @@
+.gift{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.main{
+    text-align: center;
+    color: #3f3f3f;
+    font-family: 'Arita-buri-SemiBold';
+}
+.main{
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+.main dt{
+    font-size: 30px;
+    font-weight: bold;
+}
+.main dd{
+    font-size: 18px;
+}
+.main dd:nth-child(1){
+    font-weight: 550;
+}
+.jihambo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: #fff;
+    height: 50vh;
+    font-family: 'Arita-buri-SemiBold';
+}
+.jihambo>.box001{
+    width: 600px;
+    padding: 50px;
+    background: url('../../assets/pouch.png') no-repeat;
+    background-size: 100%;
+}
+.jihambo>.box001>dt{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.jihambo>.box001>dd:nth-child(2){
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 300px;
+}
+.jihambo>.box001>dd:nth-child(3){
+    cursor: pointer;
+    text-decoration: underline;
+}
+.jihambo>.box002{
+    width: 600px;
+    padding: 50px;
+    background: url('../../assets/squre.png') no-repeat;
+    background-size: 100%;
+}
+.jihambo>.box002>dt{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.jihambo>.box002>dd:nth-child(2){
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 300px;
+}
+.jihambo>.box002>dd:nth-child(3){
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main02{
+    text-align: center;
+    font-family: 'Arita-buri-SemiBold';
+}
+.main02{
+    margin-bottom: 50px;
+}
+.main02 dt{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.main02 dd:nth-child(2){
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #6e6e6e;
+    font-family: 'Arita-buri-SemiBold';
+}
+.main02 dd{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-family: 'Arita-dotum-Medium';
+}

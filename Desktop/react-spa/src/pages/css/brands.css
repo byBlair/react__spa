@@ -1,0 +1,118 @@
+#brand{
+    width: 1300px;
+    margin: 0 auto;
+}
+.brands{
+    background: radial-gradient(circle at top, #f85a06 40%, #fff 90%);
+    color: #fff;
+    padding-top: 60px;
+    height: 70vh;
+    background-size: 100%;
+}
+.brands>dl{
+    text-align: center;
+    font-family: 'Arita-buri-SemiBold';
+}
+.brands>dl>dt{
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+.brands>dl>dd{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Arita-dotum-Medium';
+}
+.brands>dl>dd:nth-child(2){
+    margin-bottom: 80px;
+    font-size: 30px;
+    font-family: 'Arita-buri-SemiBold';
+}
+.brands>dl>dd:nth-child(3){
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arita-buri-SemiBold';
+}
+.brands>dl>dd:nth-child(4){
+    margin-bottom: 15px;
+}
+.belief{
+    padding: 50px 0;
+    font-family: 'Arita-dotum-Medium';
+}
+.belief>dl{
+    margin-bottom: 80px;
+}
+.belief>dl>dt{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.belief>dl>dd{
+    font-size: 20px;
+    line-height: 30px;
+}
+.belief>img{
+    width: 100%;
+    margin: 0 auto;
+}
+.ingredient{
+    padding: 50px 0;
+    font-family: 'Arita-dotum-Medium';
+}
+.ingredient>dl{
+    margin-bottom: 30px;
+}
+.ingredient>dl>dt{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.ingredient>dl>dd{
+    font-size: 20px;
+    line-height: 30px;
+}
+.ingredient>img{
+    width: 100%;
+    margin: 0 auto;
+}
+.innovation{
+    padding: 50px 0;
+    font-family: 'Arita-dotum-Medium';
+}
+.innovation>dl{
+    margin-bottom: 30px;
+}
+.innovation>dl>dt{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.innovation>dl>dd{
+    font-size: 20px;
+    line-height: 30px;
+}
+.innovation>img{
+    width: 100%;
+    margin: 0 auto;
+}
+.create{
+    padding: 50px 0;
+    font-family: 'Arita-dotum-Medium';
+}
+.create>dl{
+    margin-bottom: 30px;
+}
+.create>dl>dt{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.create>dl>dd{
+    font-size: 20px;
+    line-height: 30px;
+}
+.create>img{
+    width: 100%;
+    margin: 0 auto;
+}

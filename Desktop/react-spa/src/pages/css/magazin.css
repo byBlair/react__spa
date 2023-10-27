@@ -1,0 +1,64 @@
+.magazine{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+    font-family: 'Arita-dotum-Medium';
+}
+.magazine>dl{
+  text-align: center;
+}
+.magazine dt{
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.magazine dd>a{
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #646464;
+  text-decoration: none;
+}
+.magazine>div{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.magazine figure>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.magazine figure{
+  width: calc(25% - 1em);
+  margin: 0 0.5em 1em;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.magazine figure dl{
+  text-align: center;
+}
+.magazine figure dl>dt{
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.magazine figure dl>dd{
+    border: 1px solid #7b7b7b;
+    padding: 10px;
+    font-size: 13px;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.magazine p{
+    text-align: center;
+}
+.magazine p>button{
+    border: none;
+    background-color: rgb(253, 117, 13);
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}

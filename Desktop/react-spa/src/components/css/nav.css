@@ -1,0 +1,72 @@
+header{
+  font-family: 'Arita-buri-SemiBold';
+}
+header>div{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header h1{
+  width: 80px;
+}
+.icons{
+  display: flex;
+}
+.icons>li{
+  margin: 0 10px;
+}
+.icons>li>a{
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+nav{
+  background-color: #fff;
+  z-index: 1;
+}
+nav>.bars{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+nav>.bars>li{
+  position: relative;
+  margin: 0 50px;
+}
+nav>.bars>li>a{
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}
+/* submenu */
+.bars li>ul{
+  position: absolute;
+  width:100%;
+  z-index: 100;
+  left:0; top:35px;
+  display: none;
+}
+.bars li>ul>li{
+  border-bottom:1px solid #666;
+  text-align:center;
+  background-color: #fff;
+}
+.bars li>ul>li>a{
+  line-height:47px;
+  font-size:15px;
+  font-weight:bold;
+  color:#333;
+  text-decoration: none;
+}
+.bars{
+  border-bottom:1px solid #666;
+}
+.bars>li:first-child:hover>ul{
+  display: block;
+}

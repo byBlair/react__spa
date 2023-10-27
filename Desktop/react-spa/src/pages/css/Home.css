@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Arita-dotum-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arita-buri-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+article{
+  width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+article>h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Arita-dotum-Medium';
+}
+
+.mySwiper{
+  position: relative;
+}
+.mySwiper li{
+  background: url('../../assets/main.png') no-repeat;
+  height: 70vh;
+}
+.mySwiper .insam{
+  background: url('../../assets/sulwhasoo3.png') no-repeat;
+}
+.mySwiper .daliy{
+  background: url('../../assets/sulwhasoo4.png') no-repeat;
+}
+.mySwiper .jisul{
+  background: url('../../assets/sulwhasoo5.png') no-repeat;
+}
+.mySwiper .insam dl{
+  position: absolute;
+  color: #fff;
+  left: 300px; top: 350px;
+  font-family: 'Arita-buri-SemiBold';
+}
+.mySwiper .daliy dl{
+  position: absolute;
+  color: #fff;
+  left: 300px; top: 350px;
+  font-family: 'Arita-buri-SemiBold';
+  text-shadow: 2px 2px 2px #0a0a0a;
+}
+.mySwiper .jisul dl{
+  position: absolute;
+  color: #fff;
+  left: 300px; top: 350px;
+  font-family: 'Arita-buri-SemiBold';
+  text-shadow: 2px 2px 2px #0a0a0a;
+}
+.mySwiper li dl{
+  position: absolute;
+  color: #fff;
+  left: 300px; top: 350px;
+  font-family: 'Arita-buri-SemiBold';
+}
+.mySwiper dl>dt{
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.mySwiper dl>dd{
+  font-size: 20px;
+}
+.swiper-button-prev{
+  position: absolute;
+  top: 50%; left: 80px; 
+  background-color: #fff;
+  opacity: 0.5;
+  padding: 15px 5px;
+  border-radius: 20px;
+  color: black !important;
+}
+
+.swiper-button-next{
+  position: absolute;
+  top: 50%; right: 80px; 
+  background-color: #fff;
+  opacity: 0.5;
+  padding: 15px 5px;
+  border-radius: 20px;
+  color: black ;
+}
+
+.swiper-button-prev::after {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+.swiper-button-next::after{
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+.swiper-pagination {
+  background: rgb(131, 131, 131) !important;
+}
+
+/* box02 */
+#box02{
+  margin-top: 50px;
+  font-family: 'Arita-dotum-Medium';
+}
+#box02 div{
+  display: flex;
+}
+#box02 .pic{
+  margin-top: 30px;
+}
+#box02 .pic>p{
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+#box02 .pic span{
+  color: rgb(253, 117, 13);
+  margin-right: 10px;
+}
+#box03>h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#box03>div>dl{
+  position: absolute;
+  left: 200px; top: 200px;
+  font-family: 'Arita-buri-SemiBold';
+}
+#box03>div>dl>dt{
+  font-size: 35px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+#box03>div>dl>dd{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #585858;
+}
+#box03>div>dl>dd>button{
+  border: 1px solid #585858;
+  width: 100px;
+  background-color: transparent;
+  padding: 10px;
+  font-weight: bold;
+}
+#box03>div{
+  background: url('../../assets/bestseller.png') no-repeat;
+  height: 60vh;  
+  position: relative;
+}
+#box04{
+  box-sizing: border-box;
+}
+#box04>div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pic a{
+  text-decoration: none;
+}

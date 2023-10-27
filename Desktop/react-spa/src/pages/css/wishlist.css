@@ -1,0 +1,38 @@
+.wishlist{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    font-family: 'Arita-dotum-Medium';
+}
+.wishlist>dl{
+    text-align: center;
+}
+.wishlist>dl>dt{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.wishlist ul>div{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.wishlist>ul>div>li .pic{
+    width: 200px;
+}
+.wishlist>ul>div>li{
+    text-align: center;
+}
+
+.wishlist button{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(223, 145, 0);
+    color: #fff;
+    font-family: 'Arita-dotum-Medium';
+}

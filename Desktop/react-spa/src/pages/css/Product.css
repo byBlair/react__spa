@@ -1,0 +1,115 @@
+#productItem{
+    width:1100px;
+    margin: 0 auto 35px;
+    background-color:#fff;
+    padding:25px;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Arita-dotum-Medium';
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 20px solid #f2f2f2;
+}
+#productItem dl{
+    width: 300px;
+    margin-top: 100px;
+}
+#productItem dl>dt{
+    font-size:1.5em;
+    margin-bottom:25px;
+    font-weight: bold;
+}
+#productItem dl>dd>a:first-child{
+    font-size: 13px;
+    color: #a5a5a5;
+    text-decoration: none;
+}
+#productItem dl>dd:nth-child(3){
+    font-size: 13px;
+    color: #a5a5a5;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+#productItem dl>dd:nth-child(5){
+    font-size: 15px;
+    color: #a5a5a5;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+#productItem dl>dd{
+    font-size:1.5em;
+    margin-bottom: 10px;
+}
+#productItem dl>dd>span{
+    color: rgb(253, 117, 13);
+    margin-right: 10px;
+}
+#productItem div>.button{
+    display: flex;
+    margin-top: 200px;
+}
+#productItem div>.button>p>button{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #a5a5a5;
+    background-color: #fff;
+    font-family: 'Arita-dotum-Medium';
+}
+.point{
+    width:1100px;
+    margin: 0 auto 35px;
+    justify-content: center;
+    align-items: center;
+}
+.point div{
+    display: flex;
+}
+.point p{
+    font-size: 30px;
+    margin-right: 20px;
+    background-color: #dddddd;
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.point .tb,.bs,.ci{
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: 'Arita-dotum-Medium';
+}
+.point dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.point dd{
+    font-size: 15px;
+    color: #9e9e9e;
+}
+.point .bs img{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.topic{
+    width:1100px;
+    font-family: 'Arita-dotum-Medium';
+    margin: 0 auto 35px;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid #f2f2f2;
+}
+.topic dt{
+    padding: 15px 0;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #b8b8b8;
+    margin-bottom: 50px;
+    color: #1b0e61;
+}
+.topic img{
+    width: 100%;
+}
