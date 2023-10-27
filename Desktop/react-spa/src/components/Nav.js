@@ -37,11 +37,6 @@ export default function Nav(){
               <Link to= '/list'>
                 전체 상품
               </Link>
-              <ul>
-                <li><Link to= '/list'>스킨케어</Link></li>
-                <li><Link to= '/list'>메이크업</Link></li>
-                <li><Link to= '/list'>남성제품</Link></li>
-              </ul>
             </li>
             <li>
               <Link to= '/brands'>
